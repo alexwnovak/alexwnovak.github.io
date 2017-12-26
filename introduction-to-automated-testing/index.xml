@@ -6,10 +6,19 @@
     <description>Recent content in Introduction-to-automated-testings on Brainspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Dec 2017 13:09:39 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 24 Dec 2017 16:13:29 -0500</lastBuildDate>
     
 	<atom:link href="https://alexwnovak.github.io/introduction-to-automated-testing/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>An Introduction to MSTest</title>
+      <link>https://alexwnovak.github.io/introduction-to-automated-testing/an-introduction-to-mstest/</link>
+      <pubDate>Sun, 24 Dec 2017 16:13:29 -0500</pubDate>
+      
+      <guid>https://alexwnovak.github.io/introduction-to-automated-testing/an-introduction-to-mstest/</guid>
+      <description>So far in this series, we&amp;rsquo;ve explored the concept of automated testing. We&amp;rsquo;ve seen that it&amp;rsquo;s nothing more than writing code to test other code. To mobilize this, we experimented with a custom console app that calls test functions that exercise the class we really wanted to test. We saw that this would show us when all the tests work&amp;ndash;but also when they don&amp;rsquo;t, to help us catch breaking changes.</description>
+    </item>
     
     <item>
       <title>What is Automated Testing Really?</title>
