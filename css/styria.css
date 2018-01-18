@@ -1,0 +1,150 @@
+/*
+
+styria theme by alexwnovak
+based on vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
+
+*/
+
+/* Background */
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: rgb( 29, 31, 33 )
+}
+
+/* Foreground */
+.hljs {
+    color: rgb( 197,200,198 );
+}
+
+/* Drag-selection */
+.hljs::selection,
+.hljs span::selection {
+  background: #373b41;
+}
+
+.hljs::-moz-selection,
+.hljs span::-moz-selection {
+  background: #373b41;
+}
+
+/* Namespace, class, method names */
+.hljs-title {
+  color: rgb( 138,190,183 );
+  font-weight: normal;
+}
+
+/* Comment */
+.hljs-comment {
+  color: rgb( 101,148,64 );
+}
+
+/* Numbers */
+.hljs-number {
+    color: rgb(240,198,116);
+}
+
+/* Strings */
+.hljs-string {
+  color: rgb( 204,102,102 );
+}
+
+/* Language keywords */
+.hljs-keyword {
+  color: rgb(129,162,190 );
+  font-weight: normal;
+}
+
+/*color: fg_red*/
+
+.hljs-symbol,
+.hljs-literal,
+.hljs-deletion,
+.hljs-link {
+ color: pink;
+}
+
+/*color: fg_green*/
+.hljs-doctag,
+.hljs-addition,
+.hljs-regexp,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: pink;
+}
+
+/*color: fg_purple*/
+.hljs-attribute,
+.hljs-code,
+.hljs-selector-id {
+ color: #b294bb;
+}
+
+/*color: fg_blue*/
+
+.hljs-selector-tag,
+.hljs-bullet,
+.hljs-tag {
+    color: rgb(129,162,190 );
+    font-weight: normal;
+}
+
+/*color: fg_aqua*/
+.hljs-subst,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
+  color: #8abeb7;
+}
+
+/*color: fg_orange*/
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-quote,
+.hljs-section,
+.hljs-selector-class {
+  color: #de935f;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.text-primary {
+  color: white; /* #526322;*/
+}
+
+.post-date {
+  color: #888;
+  margin-top: -8px;
+}
+
+hr.header-separator {
+  border: 1px solid #52632220;
+  width: 100%;
+  margin-top: 35px;
+  margin-bottom: 12px;
+}
+
+pre {
+  padding: 0px;
+  border: 0px;
+  border-radius: 0px;
+  line-height: 1.45;
+}
+
+header.post-header {
+  background-color: #2D3A4D;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 20px 40px;
+  height: 170px;
+  
+  
+}
